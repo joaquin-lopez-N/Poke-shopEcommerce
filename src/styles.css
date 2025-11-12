@@ -1,0 +1,4 @@
+:root{ --brand:#3b4cca; --accent:#ffcb05; }
+body{ background:#f8f9fb; }
+.navbar{ background:var(--brand)!important; }
+.card img{ background:#fff; }

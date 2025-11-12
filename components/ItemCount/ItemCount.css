@@ -1,0 +1,44 @@
+.item-count {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  align-items: flex-start;
+}
+
+.controls {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.controls button {
+  width: 26px;
+  height: 26px;
+  border-radius: 999px;
+  border: none;
+  background: #ffcc01;
+  cursor: pointer;
+}
+
+.controls span {
+  min-width: 24px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.add-btn {
+  padding: 0.4rem 0.8rem;
+  border-radius: 8px;
+  border: none;
+  background: #ff1c1c;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.no-stock-msg {
+  color: #c0392b;
+  font-weight: 600;
+  font-size: 0.9rem;
+}

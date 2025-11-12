@@ -1,0 +1,56 @@
+.detail-container {
+  display: grid;
+  grid-template-columns: 260px 1fr;
+  gap: 1.5rem;
+  align-items: start;
+}
+
+.detail-img {
+  width: 100%;
+  object-fit: contain;
+  background: #fff;
+  border-radius: 16px;
+  padding: 1rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.detail-info h2 {
+  margin-bottom: 0.3rem;
+}
+
+.detail-type {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.detail-price {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #e67e22;
+  margin: 0.4rem 0;
+}
+
+.detail-desc {
+  margin-bottom: 0.8rem;
+}
+
+.detail-no-stock {
+  color: #c0392b;
+  font-weight: 600;
+}
+
+.detail-actions {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  margin-top: 0.5rem;
+}
+
+.detail-added {
+  font-size: 0.9rem;
+}
+
+.btn-primary,
+.btn-secondary {
+  padding: 0.4rem 0.8rem;
+}
